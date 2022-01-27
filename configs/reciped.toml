@@ -1,0 +1,16 @@
+version = 0
+
+[database]
+username = "chef"
+password = "devuseonly"
+database = "cookbook"
+port = 3306
+hostname = "localhost"
+
+[log]
+file = "reciped.log"
+level = "warn"
+
+[server]
+url = "localhost"
+port = 8000
